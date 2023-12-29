@@ -45,7 +45,7 @@ Follow these commands:
   $ poetry shell
   # Install all packages
   $ poetry install
-  # Start API server on port 8000
+  # Start frontend on http://localhost:8500
   $ poetry run streamlit run app.py
 ```
 
