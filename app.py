@@ -153,7 +153,7 @@ if prompt := st.chat_input("Your question"):
                             mime="application/pdf",
                         )
         else:
-            if "source_node" in api_response:
+            if "source_nodes" in api_response:
                 st.warning(
                     "No sources found. This answer is not backed by an election program."
                 )
